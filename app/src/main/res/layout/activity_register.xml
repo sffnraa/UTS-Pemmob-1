@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/layar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/img1Reg"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-104dp"
+        android:src="@drawable/vector1" />
+
+    <TextView
+        android:id="@+id/txt1Reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1Reg"
+        android:text="Yuk, mulai perjalanan \nRasa Nusantara kamu!"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/img2Reg"
+        android:layout_width="200dp"
+        android:layout_height="270dp"
+        android:layout_below="@+id/img1Reg"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-86dp"
+        android:src="@drawable/gambar3"/>
+
+    <LinearLayout
+        android:id="@+id/ly_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/img2Reg"
+        android:padding="20dp"
+        android:layout_marginTop="-50dp">
+
+        <EditText
+            android:id="@+id/edtFullname"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Masukkan Nama Anda"
+            android:textSize="13dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Masukkan Email Anda"
+            android:inputType="textEmailAddress"
+            android:textSize="13dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Buat Password"
+            android:inputType="textPassword"
+            android:textSize="13dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <EditText
+            android:id="@+id/edtConPass"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Konfirmasi Password"
+            android:inputType="textPassword"
+            android:textSize="13dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsmedium"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_1"
+        android:text="Daftar"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/btnlogin"
+        android:width="320dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/btnDaftar"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun?"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:id="@+id/txVLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Masuk"
+            android:textSize="12sp"
+            android:textColor="@color/btnlogin"
+            android:fontFamily="@font/poppinsmedium"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</RelativeLayout>

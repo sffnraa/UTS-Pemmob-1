@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/layar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginRight="0dp"
+        android:maxWidth="20dp"
+        android:src="@drawable/vector7" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="303dp"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="-75dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img2"
+        android:text="Rasa Nusantara – Sajikan Cita Rasa Indonesia di Setiap Masakan"
+        android:textSize="15sp"
+        android:layout_marginTop="-60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppinssemibold"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtS"
+        android:text="Selamat datang di Rasa Nusantara! Temukan beragam resep khas Indonesia dari Sabang sampai Merauke, dan hadirkan kelezatan warisan kuliner Nusantara di dapur Anda."
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="70dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppinsmedium"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:layout_marginBottom="5dp"
+        android:text="Masuk"
+        android:backgroundTint="@color/btnlogin"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsmedium"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:text="Daftar"
+        android:backgroundTint="@color/btnlogin"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsmedium"/>
+</RelativeLayout>

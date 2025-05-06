@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "728540401606",
+    "project_id": "rasanusantara12",
+    "storage_bucket": "rasanusantara12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728540401606:android:034b1e8d1bd4199669ecc7",
+        "android_client_info": {
+          "package_name": "com.example.rasanusantara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeXoj_z_unoFHlNj_fc4ctxBwYeMC6dWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
