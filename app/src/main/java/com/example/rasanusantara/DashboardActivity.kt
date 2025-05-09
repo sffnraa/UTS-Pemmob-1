@@ -20,7 +20,7 @@ class DashboardActivity : AppCompatActivity() {
         binding = ActivityDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val listView = findViewById<ListView>(R.id.listView) // pastikan kamu punya ListView di layout XML
+        val listView = findViewById<ListView>(R.id.listView)
 
         val nameList = arrayOf("Rendang", "Pempek", "Gudeg", "Rawon", "Papeda", "Soto Banjar", "Ayam Betutu", "Serabi")
         val provList = arrayOf("Sumatra Barat", "Sumatra Selatan", "DI Yogyakarta", "Jawa Timur", "Papua", "Kalimantan Selatan", "Bali", "Jawa Barat")

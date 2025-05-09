@@ -74,17 +74,6 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/txt2Log"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ly_2Log"
-        android:text="Lupa Password?"
-        android:textColor="@color/btnlogin"
-        android:textSize="14dp"
-        android:layout_marginBottom="20dp"
-        android:fontFamily="@font/poppinsmedium"
-        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/btnLogin"
@@ -92,7 +81,7 @@
         android:layout_height="wrap_content"
         android:width="300dp"
         android:layout_marginBottom="10dp"
-        android:layout_below="@+id/txt2Log"
+        android:layout_below="@+id/ly_2Log"
         android:backgroundTint="@color/btnlogin"
         android:layout_centerHorizontal="true"
         android:text="Masuk"
